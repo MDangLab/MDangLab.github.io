@@ -39,6 +39,13 @@ author:
 
 # 站点外观与主题
 #remote_theme: "academicpages/academicpages" # 使用 AcademicPages 远程主题
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
 permalink: /:categories/:title/
 paginate: 5
 highlighter: rouge
