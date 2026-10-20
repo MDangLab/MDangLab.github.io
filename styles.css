@@ -9,3 +9,13 @@
 .sidebar-scholar{display:block;font-size:.875rem;line-height:1.6;margin-top:12px}.sidebar-scholar:hover{text-decoration:underline}@media(max-width:720px){.sidebar-scholar{grid-column:2;margin-top:10px}}@media(max-width:380px){.sidebar-scholar{grid-column:auto}}
 
 .scholar-links{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin-top:12px}.scholar-links .sidebar-scholar{margin:0}.scholar-snapshot{font-size:.8125rem;white-space:nowrap}.scholar-links small{flex-basis:100%;font-size:.6875rem;color:var(--muted);line-height:1.6}@media(max-width:720px){.scholar-links{grid-column:2;margin-top:10px}}@media(max-width:380px){.scholar-links{grid-column:auto}}
+
+/* News: newest events first; year-only dates reflect available records. */
+.news-intro{color:var(--muted);margin:0 0 16px;font-size:.9375rem}.news-list{list-style:none;margin:0;padding:0}.news-item{display:grid;grid-template-columns:70px minmax(0,1fr);gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}.news-item:last-child{border-bottom:0}.news-item time{font-size:.875rem;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}.news-category{font-size:.75rem;color:var(--ink);font-weight:600;letter-spacing:.02em}.news-item p{margin:5px 0 6px;line-height:1.7}.news-item a{font-size:.8125rem}@media(max-width:720px){.news-item{grid-template-columns:52px minmax(0,1fr);gap:12px;padding:16px 0}}
+
+.news-item p a{font-size:inherit}
+
+/* Compact news list, with bold dates and inline event descriptions. */
+.news-item{grid-template-columns:112px minmax(0,1fr);gap:22px;padding:10px 0;border:0;align-items:baseline}.news-item time{font-size:1rem;font-weight:700;color:inherit;padding:0;white-space:nowrap}.news-item p{margin:0;line-height:1.7}.news-list{margin-top:8px}@media(max-width:720px){.news-item{grid-template-columns:96px minmax(0,1fr);gap:14px;padding:10px 0}.news-item time{font-size:.875rem}}@media(max-width:380px){.news-item{grid-template-columns:1fr;gap:3px}}
+
+.news-archive{margin-top:12px}.news-archive summary{cursor:pointer;color:var(--ink);font-size:.875rem;width:fit-content;padding:8px 0}.news-archive summary:hover{text-decoration:underline}.news-archive summary:focus-visible{outline:2px solid var(--ink);outline-offset:4px}.news-collapse,.news-archive[open] .news-expand{display:none}.news-archive[open] .news-collapse{display:inline}
