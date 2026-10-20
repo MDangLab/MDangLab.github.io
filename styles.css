@@ -5,3 +5,7 @@
 .analytics-notice{font-size:.875rem;color:#607080;padding-bottom:24px}
 
 .public-counts{font-size:.875rem;color:#526070;padding-top:18px}.public-counts small{display:block;font-size:.875rem;margin-top:6px}
+
+.sidebar-scholar{display:block;font-size:.875rem;line-height:1.6;margin-top:12px}.sidebar-scholar:hover{text-decoration:underline}@media(max-width:720px){.sidebar-scholar{grid-column:2;margin-top:10px}}@media(max-width:380px){.sidebar-scholar{grid-column:auto}}
+
+.scholar-links{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin-top:12px}.scholar-links .sidebar-scholar{margin:0}.scholar-snapshot{font-size:.8125rem;white-space:nowrap}.scholar-links small{flex-basis:100%;font-size:.6875rem;color:var(--muted);line-height:1.6}@media(max-width:720px){.scholar-links{grid-column:2;margin-top:10px}}@media(max-width:380px){.scholar-links{grid-column:auto}}
